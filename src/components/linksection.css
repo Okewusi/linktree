@@ -1,0 +1,16 @@
+#LinkSectionContainer{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (min-width:1281px){
+    #LinkSectionContainer{
+        width: 100%;
+        height: 65%;
+    }
+}

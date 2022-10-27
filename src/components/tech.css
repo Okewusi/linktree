@@ -1,0 +1,10 @@
+#techContainer{
+    width: 90%;
+    height: 68px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .1px solid #667085;
+
+}

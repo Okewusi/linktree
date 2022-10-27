@@ -1,0 +1,16 @@
+#linkContainer{
+    width: 90%;
+    height: 68px;
+    background-color: #EAECF0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+    color: #101828;
+}
