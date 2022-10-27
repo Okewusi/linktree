@@ -1,4 +1,4 @@
-#linkContainer{
+.link{
     width: 90%;
     height: 68px;
     background-color: #EAECF0;
@@ -9,8 +9,7 @@
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
-}
-.link{
     text-decoration: none;
     color: #101828;
+    cursor: pointer;
 }
