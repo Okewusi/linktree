@@ -1,6 +1,6 @@
 .link{
     width: 90%;
-    height: 60px;
+    /* height: 2.5rem; */
     background-color: #EAECF0;
     text-align: center;
     display: flex;
@@ -12,4 +12,11 @@
     text-decoration: none;
     color: #101828;
     cursor: pointer;
+    padding: 1.1rem 0;
+}
+
+@media (min-width:600px){
+    .link{
+        padding: 1.2rem 0;
+    }
 }
