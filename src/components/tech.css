@@ -1,12 +1,12 @@
 #techContainer{
-    width: 90%;
+    width: 95%;
     height: 68px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 3rem;
+    border-bottom: .1px solid #667085;
 }
 
 #techContainer a{
