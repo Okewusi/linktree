@@ -38,7 +38,9 @@
     position: absolute; 
     left: 45vw;
 }
-
+/* a{
+    cursor: pointer;
+} */
 
 @media (min-width:600px){
     #share_link{

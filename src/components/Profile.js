@@ -9,8 +9,12 @@ const Profile = () => {
     <div id='profile'>
         <div id='profileContainer'>
           <img src={profilePicture} id='profile_img' alt='profile'/>
-          <img src={mobile} id='mobile_share' alt='profile'/>
-          <img src={share} id='share_link' alt='share button'/>
+          <a href='_'>
+            <img src={mobile} id='mobile_share' alt='profile'/>
+          </a>
+          <a href='_'>
+            <img src={share} id='share_link' alt='share button'/>
+          </a>
         </div>
         <p id='twitter'>Pelcool</p>
         <p id='slack'>Comfort Oluwapelumi</p>
