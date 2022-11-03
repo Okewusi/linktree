@@ -20,7 +20,7 @@ const Contact = () => {
             <label htmlFor="email">Email</label>
             <input type="email" name="email" id='email' placeholder='yourname@email.com'/>
             <label htmlFor="message">Message</label>
-            <input type="email" name="message" id='message' placeholder="Send me a message and I'll reply as soon as possible"/>
+            <textarea rows="4" cols="50" name="message" id='message' placeholder="Send me a message and I'll reply as soon as possible"/>
             <div className='option'>
                 <input type="checkbox" id="agreement" name='agreement'/>
                 <label id='tick'>You agree to providing your data to Comfort Oluwapelumi who may contact you</label>

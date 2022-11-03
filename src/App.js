@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import {BrowserRouter , Routes, Route, Switch} from "react-router-dom"
+import {BrowserRouter , Routes, Route} from "react-router-dom"
 import Footer from "./components/Footer"
 
 function App() {
