@@ -29,6 +29,10 @@
     display: flex;
     flex-direction: column;
  }
+ .names .fn, .names .ln{
+    display: flex;
+    flex-direction: column;
+ }
  label{
     padding: .5rem 0 .5rem 0;
     color: var(--label);
@@ -63,3 +67,26 @@
     outline: none;
     margin-bottom: 2rem;
  }
+
+ @media (min-width:600px){
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.2rem;
+        width: 50%;
+        margin: 0 auto;
+    }
+    form .names{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .names .fn, .names .ln{
+        width: 50%;
+
+    }
+    .names .ln{
+        margin-left: 1rem;
+    }
+}
