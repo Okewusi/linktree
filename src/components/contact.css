@@ -1,5 +1,65 @@
+:root {
+    --label: #344054;
+    --haeding: #101828;
+    --text: #475467;
+    --input:#667085;
+    --btn:#1570EF;
+  }
 .formContainer{
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
+.heading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--haeding);
+}
+ .formContainer p{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: var(--text);
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 3rem 0;
+ }
+ form .names{
+    display: flex;
+    flex-direction: column;
+ }
+ label{
+    padding: .5rem 0 .5rem 0;
+    color: var(--label);
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8rem;
+ }
+ input{
+    padding: .5rem;
+    border-radius: .5rem;
+    border: .1px solid #D0D5DD;
+    outline: none;
+    color: var(--input);
+    margin-bottom: .5rem;
+ }
+ #message{
+    height: 5rem;
+ }
+ .option{
+    display: flex;
+    margin-bottom: 1rem;
+ }
+ #tick{
+    padding-left: .5rem;
+ }
+ #btn__submit{
+    padding: 1rem;
+    background: var(--btn);
+    color: white;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+ }
