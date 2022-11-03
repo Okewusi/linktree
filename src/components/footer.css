@@ -1,16 +1,15 @@
 .footerContainer{
-    width: 90%;
+    width: 80%;
     padding: 3rem;
     color: #667085;
-    
+    border-top: .1px solid #667085;
+    margin: 0 auto;
 }
 
 @media (min-width:600px){
     .footerContainer{
         display: flex;
-        height: 10%;
         justify-content: space-between;
         align-items: flex-start;
-        width: 95%;
     }
 }

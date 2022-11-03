@@ -1,15 +1,21 @@
 import './App.css';
-import Profile from './components/Profile';
-import LinkSection from './components/LinkSection';
-import Footer from './components/Footer';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import {BrowserRouter , Routes, Route, Switch} from "react-router-dom"
+import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <Profile />
-      <LinkSection />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <Routes>
+          <Route path='/' element={ <Home />} />
+          <Route path='/contact' element= { <Contact />}/>
+        </Routes>
+        <Footer />
+      </div>  
+    </BrowserRouter>
+    
   );
 }
 

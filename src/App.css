@@ -3,6 +3,9 @@
 }
 .App {
   font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  padding: 2rem;
+  overflow-x: hidden;
 }
 
 
